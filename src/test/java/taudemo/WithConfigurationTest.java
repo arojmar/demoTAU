@@ -25,7 +25,7 @@ public class WithConfigurationTest {
     public void justATest() {
         driver.get("https://www.example.org");
         assertEquals(driver.getTitle(), "Example Domain");
-        System.out.println("hola");
+
     }
 
     @AfterAll
