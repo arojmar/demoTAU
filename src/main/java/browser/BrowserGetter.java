@@ -22,10 +22,10 @@ public class BrowserGetter {
             setProperty("webdriver.chrome.driver", "src/test/resources/browserBinaries/chromedriver.exe");
         }
         if (IS_OS_LINUX) {
-            setProperty("webdriver.chrome.driver", "src/test/resources/browserBinaries/chromedriver");
+            setProperty("webdriver.chrome.driver", "src/test/resources/browserBinaries/chromedriver_linux");
         }
         if (IS_OS_MAC) {
-            setProperty("webdriver.chrome.driver", "src/test/resources/browserBinaries/chromedriverMac");
+            setProperty("webdriver.chrome.driver", "src/test/resources/browserBinaries/chromedriver_mac");
         }
 
         WebDriver driver = new ChromeDriver();
